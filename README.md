@@ -28,7 +28,7 @@ I think the HTML is poorly written (by me!) but I continued with it, to try and 
 
 ## The Challenge
 
-### - Build out the project to the designs provided in the design folder.
+- Build out the project to the designs provided in the design folder.
   - [Desktop](design/desktop-design.jpg)
   - [Mobile](design/mobile-design.jpg)
   - [Design/Styles](style-guide.md)
