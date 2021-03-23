@@ -1,0 +1,158 @@
+/* import font */
+@import url("https://fonts.google.com/specimen/Kumbh+Sans&display=swap");
+
+/* @media screen (max-width: 430px) {
+
+} */
+
+body {
+    /* remove white margins */
+    margin: 0;
+    /* set font */
+    font-family: "Kumbh Sans", "Verdana", san-serif;
+    /* allow positioning */
+    position: relative;
+    /* set color */
+    background-color: hsl(185, 75%, 39%);
+    /* set to cover viewport */
+    height: 100vh;
+    width: 100vw;
+    /* center text */
+    text-align: center;
+    /* center article in page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    /* set size of article */
+    height: 375px;
+    width: 324px;
+    /* set color */
+    background-color: white;
+    /* allow position change?? */
+    position: fixed;
+    z-index: 1;
+}
+
+.back-bubbles {
+    /* size of background bubbles */
+    height: 750px;
+    width: 750px;
+}
+
+#up {
+    background-image: url('../images/bg-pattern-top.svg');
+    background-size: cover;
+    position: absolute;
+    bottom: 60%;
+    right: 41%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+#down {
+    background-image: url('../images/bg-pattern-bottom.svg');
+    background-size: cover;
+    position: absolute;
+    top: 58%;
+    left: 41%;
+    z-index: -1;
+    background-size: 71% 88%;
+    background-repeat: no-repeat;
+
+}
+
+.top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main {
+    background-color: white;
+    position: relative;
+    height: 76%;  
+    z-index: 2;
+}
+
+#text {
+    position: relative;
+    top: 50px;
+}
+
+#top-bubbles {
+    background-image: url("../images/bg-pattern-card.svg");
+    background-size: cover;
+    height: 49%;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    
+    
+
+}
+
+#image-ball {
+    height: 95px;
+    width: 95px;
+    border-radius: 52.5px;
+    border: 5px solid white;
+    background-image: url("../images/image-victor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    bottom:50%;
+    margin: 0 0 -50px -52.5px;
+    z-index: 5;
+}
+
+.social {
+    border-top: 1px solid #ececec;
+    background-color: white;
+    display: flex;
+    /* padding: 10px 15px; */
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+    width: 324px;
+    height:24%;
+    position: bottom;
+    z-index: 2;
+}
+
+.social div {   
+    /* letter-spacing: -1px; */
+    flex: auto;
+    line-height: 8px;
+    padding: 12px 0;
+}
+
+.light {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.little {
+    font-size: x-small;
+}
+
+h2 {
+    font-size: large;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
